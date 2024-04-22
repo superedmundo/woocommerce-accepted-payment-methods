@@ -32,6 +32,9 @@ ul.accepted-payment-methods li span {
   background-repeat: no-repeat;
   box-sizing: content-box;
 }
+ul.accepted-payment-methods li.mercadopago span {
+  background-image: url(../images/mercadopago.png);
+}
 ul.accepted-payment-methods li.visa span {
   background-image: url(../images/visa.png);
 }
@@ -72,6 +75,11 @@ ul.accepted-payment-methods li.dankort span {
   background-image: url(../images/dankort.png);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
+  
+  ul.accepted-payment-methods li.mercadopago span {
+    background-image: url(../images/mercadopago@2x.png);
+    background-size: 45px 16px;
+  }
   ul.accepted-payment-methods li.visa span {
     background-image: url(../images/visa@2x.png);
     background-size: 50px 16px;
